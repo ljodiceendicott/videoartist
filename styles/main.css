@@ -1,0 +1,33 @@
+html{
+  background-color: gray;
+}
+main{
+  background-color:darkgray;
+}
+main h1{
+  text-align: center;
+  font-size: 4em;
+}
+div{
+  width:70%;
+  margin:0 auto;
+}
+.videoWrapper {
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-right:-2em;
+    height: 0;
+  }
+  .videoWrapper iframe {
+
+    position: absolute;
+    margin:0 auto;
+    top: 0;
+    left: 0;
+    height: 75%;
+  }
+  .videoWrapper > div{
+    margin:0 auto;
+  }
